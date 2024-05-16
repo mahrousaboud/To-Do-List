@@ -32,7 +32,7 @@ listContainer.addEventListener(
 );
 
 function saveData() {
-  lockalStorage.setItem("data", listContainer.innerHTML);
+  localStorage.setItem("data", listContainer.innerHTML);
 }
 
 function showTask() {
